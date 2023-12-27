@@ -1,0 +1,69 @@
+.item-button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    background-color: green;
+    color: white;
+}
+.item-button:hover{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    background-color: white;
+    color: green;
+}
+.category{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+.category img{
+    margin-left: 10px;
+}
+
+.category-active{
+    border: 2px green solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(57 128 33 / 68%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+/*registrtation page css*/
+.register{
+    display: flex;
+    border: 2px solid gray;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://media.istockphoto.com/id/1461097719/photo/technology-is-used-in-todays-coffee-shops-to-assist-make-them-more-convenient-for-both-the.jpg?s=2048x2048&w=is&k=20&c=nPOEnAqPqMAHtltNYZW2jIF5MiwqRtiU9tIdOkPUea0=);
+background-size: cover;
+}
+.register Input {
+    width: 400px;
+}
+.register-form{
+    /*background-color: antiquewhite;*/
+    /*
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(120 87 43), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.4px);
+-webkit-backdrop-filter: blur(3.4px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+padding: 30px;
+}
+
+.register-form h1{
+    text-align: center;
+    color: white;
+}
+.register-form h3{
+    text-align: center;
+    color: white;
+}
